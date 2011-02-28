@@ -1,0 +1,129 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header-wrapper">
+            <div id="header">
+                <div id="logo">
+                    <h1>
+                        <a href="#">Synchronize </a>
+                    </h1>
+                    <p>
+                        design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- end #header -->
+        <div id="page">
+            <div id="pagebgtop">
+                <div id="pagebgbtm">
+                    <div id="sidebar">
+                        <ul>
+                            <li>
+                                <div id="search">
+                                    <form method="get" action="#">
+                                    <div>
+                                        <input type="text" name="s" id="search-text" value="" />
+                                        <input type="submit" id="search-submit" value="GO" />
+                                    </div>
+                                    </form>
+                                </div>
+                            </li>
+                            <li>
+                                <h2>
+                                    Aliquam tempus</h2>
+                                <p>
+                                    Mauris vitae nisl nec metus placerat perdiet est. Phasellus dapibus semper consectetuer
+                                    hendrerit.</p>
+                            </li>
+                            <li>
+                                <h2>
+                                    Categories</h2>
+                                <ul>
+                                    <li><a href="#">Aliquam libero</a></li>
+                                    <li><a href="#">Consectetuer adipiscing elit</a></li>
+                                    <li><a href="#">Metus aliquam pellentesque</a></li>
+                                    <li><a href="#">Suspendisse iaculis mauris</a></li>
+                                    <li><a href="#">Urnanet non molestie semper</a></li>
+                                    <li><a href="#">Proin gravida orci porttitor</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h2>
+                                    Blogroll</h2>
+                                <ul>
+                                    <li><a href="#">Aliquam libero</a></li>
+                                    <li><a href="#">Consectetuer adipiscing elit</a></li>
+                                    <li><a href="#">Metus aliquam pellentesque</a></li>
+                                    <li><a href="#">Suspendisse iaculis mauris</a></li>
+                                    <li><a href="#">Urnanet non molestie semper</a></li>
+                                    <li><a href="#">Proin gravida orci porttitor</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h2>
+                                    Archives</h2>
+                                <ul>
+                                    <li><a href="#">Aliquam libero</a></li>
+                                    <li><a href="#">Consectetuer adipiscing elit</a></li>
+                                    <li><a href="#">Metus aliquam pellentesque</a></li>
+                                    <li><a href="#">Suspendisse iaculis mauris</a></li>
+                                    <li><a href="#">Urnanet non molestie semper</a></li>
+                                    <li><a href="#">Proin gravida orci porttitor</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="content">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                        <div class="post">
+                            <p class="meta">
+                                <span class="posted">Posted by <a href="#">Someone</a></span><span class="date">February
+                                    23, 2010</span></p>
+                            <h2 class="title">
+                                <a href="#">Welcome to Synchronize </a>
+                            </h2>
+                            <div style="clear: both;"></div>
+                            <div class="entry">
+                                <img src="../../images/img06.jpg"  class="alignleft"  alt="" width="172" height="172" />
+                                <p>
+                                    This is <strong>Synchronize</strong>, a free, fully standards-compliant CSS template
+                                    designed by FreeCssTemplates<a href="http://www.nodethirtythree.com/"></a> for <a
+                                        href="http://www.freecsstemplates.org/">Free CSS Templates</a>. This free template
+                                    is released under a <a href="http://creativecommons.org/licenses/by/2.5/">Creative Commons
+                                        Attributions 2.5</a> license, so you’re pretty much free to do whatever you
+                                    want with it (even use it commercially) provided you keep the links in the footer
+                                    intact. Aside from that, have fun with it :)</p>
+                                <p>
+                                    Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor,
+                                    elementum ipsum. Proin imperdiet est. Phasellus dapibus semper urna. Pellentesque
+                                    ornare, orci in felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus
+                                    egestas at sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end #content -->
+                    <!-- end #sidebar -->
+                    <div style="clear: both;">
+                        &nbsp;</div>
+                </div>
+            </div>
+        </div>
+        <!-- end #page -->
+    </div>
+    <div id="footer">
+        <p>
+            Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">
+                Free CSS Templates</a>.</p>
+    </div>
+    <!-- end #footer -->
+</body>
+</html>
