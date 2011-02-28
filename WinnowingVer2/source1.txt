@@ -1,5 +1,0 @@
-.\novels\01.txt
-.\novels\02.txt
-.\novels\03.txt
-.\novels\04.txt
-.\novels\05.txt

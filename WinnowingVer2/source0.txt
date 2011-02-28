@@ -1,6 +1,0 @@
-.\novels\literature\01.txt
-.\novels\literature\02.txt
-.\novels\literature\03.txt
-.\novels\literature\04.txt
-.\novels\literature\05.txt
-.\novels\literature\06.txt
