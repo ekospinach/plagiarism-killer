@@ -68,7 +68,7 @@ double compare(info & user, info & base)
 			(user.hashKey[i]>base.hashKey[nStart])) nStart++;
 		if(nStart==base.hashKey.size()) break;
 		pStart=nStart;
-		if(user.hashKey[i]==base.hashKey[nStart])
+		while(user.hashKey[i]==base.hashKey[nStart])
 		{
 			same++;
 			bool isInclude = false;
@@ -103,6 +103,7 @@ double compare(info & user, info & base)
 				else
 					base.zoneEnd.push_back(q+km);
 			}
+			nStart++;
 		}
 	}
 	return double(same)/double(user.hashKey.size());
@@ -226,10 +227,10 @@ int main()
 	time_t begin,end;
 
 	ofstream fout("test.txt");
-	for(int o=3;o<=10;o=o+1)
+	for(int o=6;o<=6;o=o+1)
 	{
 		fout << "w= "<< o << endl;
-		for(int j=3;j<=10;j=j+1)
+		for(int j=15;j<=15;j=j+1)
 		{
 			begin=clock();
 			w=o;
@@ -259,9 +260,9 @@ int main()
 
 			for (int i = 0 ; i < dataBase.size() ; ++i){
 				fout << compare(target,dataBase[i]) << "\t";
-				for(int j=0; j < dataBase[i].zoneStart.size(); j++)
+				for(int jm=0; jm < dataBase[i].zoneStart.size(); jm++)
 				{
-					for(int k=dataBase[i].zoneStart[j]; k<=dataBase[i].zoneEnd[j]; k++)
+					for(int k=dataBase[i].zoneStart[jm]; k<=dataBase[i].zoneEnd[jm]; k++)
 						wcout << dataBase[i].file[k];
 					wcout << endl;
 				}
