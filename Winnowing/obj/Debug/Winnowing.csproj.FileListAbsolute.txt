@@ -19,3 +19,8 @@ C:\Users\Cyber\Desktop\WinnowingVer5\Winnowing\bin\Winnowing.pdb
 C:\Users\Cyber\Desktop\WinnowingVer5\Winnowing\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Cyber\Desktop\WinnowingVer5\Winnowing\obj\Debug\Winnowing.dll
 C:\Users\Cyber\Desktop\WinnowingVer5\Winnowing\obj\Debug\Winnowing.pdb
+F:\Projects(S02E02)\论文剽窃检测系统\Winnowing_SVN\branches\WinnowingVer5\Winnowing\bin\Winnowing.dll
+F:\Projects(S02E02)\论文剽窃检测系统\Winnowing_SVN\branches\WinnowingVer5\Winnowing\bin\Winnowing.pdb
+F:\Projects(S02E02)\论文剽窃检测系统\Winnowing_SVN\branches\WinnowingVer5\Winnowing\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects(S02E02)\论文剽窃检测系统\Winnowing_SVN\branches\WinnowingVer5\Winnowing\obj\Debug\Winnowing.dll
+F:\Projects(S02E02)\论文剽窃检测系统\Winnowing_SVN\branches\WinnowingVer5\Winnowing\obj\Debug\Winnowing.pdb
